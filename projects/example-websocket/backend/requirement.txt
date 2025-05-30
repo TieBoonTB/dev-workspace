@@ -1,0 +1,14 @@
+# === Core framework ===
+fastapi
+uvicorn[standard]
+
+# === WebSocket support ===
+websockets
+
+# === Image handling ===
+pillow
+
+# === Optional utilities ===
+# python-multipart  # Only needed for form-based uploads
+# python-dotenv     # Load env vars from .env file
+# opencv-python     # Useful for computer vision processing
